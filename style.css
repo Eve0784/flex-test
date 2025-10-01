@@ -1,0 +1,43 @@
+/* //https://css-tricks.com/snippets/css/a-guide-to-flexbox/    sito per vedere le proprieta di flex*/
+
+*{
+    border: solid 1px lightskyblue;
+}
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+.child{
+    /* width: 600px; */
+    min-width: 50px;
+}
+
+.order{
+    order: -1;
+}
+
+.grow{
+    flex-grow: 1;
+}
+.double-grow{
+    flex-grow: 2;
+}
+
+.height-100{
+    height: 100px;
+}
+.height-200{
+    height: 200px;
+}
+.height-300{
+    height: 300px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* height: 600px; */
+    align-items: center;
+    gap: 8px;
+    }
